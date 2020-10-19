@@ -137,14 +137,7 @@ MESSAGE_TAGS = {
 }
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
-# Email config
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'rnmroriz@gmail.com'
-EMAIL_HOST_PASSWORD = 'romuloelorena24'
-EMAIL_USE_TLS = True
-
 try:
     from .local_settings import *
 except ImportError:
-    pass 
+    pass
